@@ -6,7 +6,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 
-@app.route('/templates')
+@app.route('/')
 def index():
     """single route and an index.html template"""
     return render_template('0-index.html')

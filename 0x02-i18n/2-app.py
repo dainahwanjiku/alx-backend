@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-A basic Flask app.
+A basic flask app
 """
 from flask_babel import Babel
 from flask import Flask, render_template, request
